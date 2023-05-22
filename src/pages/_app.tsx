@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <div className="flex h-screen flex-col">
         <Component {...pageProps} />
-        <footer className="flex flex-none justify-center">
+        <footer className="flex flex-none justify-center bg-black text-white">
           Copyright &copy; 2023 by BracketCS.
         </footer>
       </div>
