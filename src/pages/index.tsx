@@ -36,6 +36,19 @@ export default function BracketCSHome() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
+        transition={{
+          duration: 3,
+          delay: 2.75,
+          type: "spring",
+          ease: "easeInOut",
+        }}
+        className="mx-4 inline-block overflow-hidden text-lg sm:text-xl lg:text-2xl"
+      >
+        Coming soon &trade;
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 3, duration: 0.5 }}
         className="mx-12 mt-24 flex flex-row gap-x-8"
       >
