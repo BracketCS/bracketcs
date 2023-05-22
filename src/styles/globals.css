@@ -32,8 +32,10 @@ body {
   stroke-dasharray: 228;
   stroke-dashoffset: 228;
   fill: none;
+  -webkit-text-fill-color: transparent;
   stroke: #fff;
-  fill-opacity: 0;
+  fill: #fff;
+  fill-opacity: 0.01;
   font-size: 10rem;
 }
 
@@ -46,6 +48,7 @@ body {
 @keyframes fillOffset {
   to {
     fill-opacity: 1;
+    -webkit-text-fill-color: #fff;
     fill: #fff;
   }
 }

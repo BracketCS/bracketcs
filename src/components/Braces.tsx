@@ -19,11 +19,9 @@ export function LeftBrace({ className }: { className?: string }) {
           strokeLinecap="round"
           fillRule="evenodd"
           fontSize="9pt"
-          style={{
-            stroke: "#000",
-            strokeWidth: "0.25mm",
-            fill: "#000",
-          }}
+          stroke="#000"
+          strokeWidth="0.25mm"
+          fill="fff"
           className="border-2 border-red-400"
         >
           <path
@@ -55,11 +53,9 @@ export function RightBrace({ className }: { className?: string }) {
           strokeLinecap="round"
           fillRule="evenodd"
           fontSize="9pt"
-          style={{
-            stroke: "#000",
-            strokeWidth: "0.25mm",
-            fill: "#000",
-          }}
+          stroke="#000"
+          strokeWidth="0.25mm"
+          fill="#fff"
         >
           <path
             className="path"
