@@ -59,7 +59,7 @@ export default function BracketCSHome() {
           }}
           className="mx-4 inline-block overflow-hidden text-lg sm:text-xl lg:text-2xl"
         >
-          Coming soon &trade;
+          Coming Soon &trade;
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
